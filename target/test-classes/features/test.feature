@@ -1,22 +1,17 @@
 #Author: Hushin
 
 @Completed_test
-Feature: Title of your feature
-  I want to use this template for my feature file
+Feature: I am testing the inventory billiard page 
 
   @Test_1
-  Scenario Outline: Test Automation 1
-    Given I want to write a step with precondition
-    And some other precondition
-    When I complete action
-    And some other action
-    And yet another action
-    Then I validate the outcomes
-    And check more outcomes
+  Scenario Outline: I am verify the login
+    Given Start invetory page
+    When I enter the user <user> and the password <password>
+    And I press the login button
+    Then I validate the succesful login with the user <user>
 
     Examples: 
-      | name  | value | status  |
-      | name1 |     5 | success |
-      | name2 |     7 | Fail    |
+      |user				|password		|
+      |"Roy"			|"Prueba1234*"  |
+      |"Thocego"	    |"Prueba1234"	|
 
-Hola Roy 

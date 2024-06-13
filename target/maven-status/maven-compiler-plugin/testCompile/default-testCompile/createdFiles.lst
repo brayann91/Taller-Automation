@@ -1,0 +1,6 @@
+com\test\automation\pages\TallerPageObject.class
+com\test\automation\utils\Actions.class
+com\test\automation\steps\TallerStep.class
+com\test\automation\utils\elements\login\LoginElement.class
+com\test\automation\runner\RunnerTags.class
+com\test\automation\stepDefinitions\TallerDefinitions.class

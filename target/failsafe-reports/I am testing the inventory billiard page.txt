@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: I am testing the inventory billiard page
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 7.645 s <<< FAILURE! - in I am testing the inventory billiard page
+I am verify the login(I am testing the inventory billiard page)  Time elapsed: 4.623 s  <<< FAILURE!
+junit.framework.AssertionFailedError
+
+I am verify the login(I am testing the inventory billiard page)  Time elapsed: 3.019 s  <<< FAILURE!
+junit.framework.AssertionFailedError
+
