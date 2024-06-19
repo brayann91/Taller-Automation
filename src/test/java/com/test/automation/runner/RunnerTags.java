@@ -7,11 +7,10 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions (features = "src/test/resources/features/test.feature",
-			tags = "@Test_1",
+			tags = "@Login",
 			glue = "com.test.automation.stepDefinitions",
 			snippets = SnippetType.CAMELCASE )
 
 public class RunnerTags {
 
-	
 }

@@ -28,4 +28,21 @@ public class TallerStep {
 	public void validateTheSuccesfulLogin(String user) {
 		tallerPageObject.validateUser(user);
 	}
+
+	@Step
+	public void logIntoTheApp(String user, String password) {
+		tallerPageObject.insertUser(user);
+		tallerPageObject.insertPassword(password);
+		tallerPageObject.pressLogin();
+	}
+
+	@Step
+	public void validateTheSuccessfulAdminLogin(String user) {
+		tallerPageObject.validateAdminUser(user);
+	}
+
+	@Step
+	public void validateTheSuccessfulCashLogin(String user) {
+		tallerPageObject.validateCashUser(user);
+	}
 }
