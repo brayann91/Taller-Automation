@@ -12,7 +12,6 @@ import net.serenitybdd.core.pages.PageObject;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import net.serenitybdd.core.pages.PageObject;
 
 public class Actions extends PageObject{
 

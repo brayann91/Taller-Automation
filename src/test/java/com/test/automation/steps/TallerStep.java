@@ -1,15 +1,19 @@
 package com.test.automation.steps;
 
 import com.test.automation.pages.TallerPageObject;
+import com.test.automation.utils.Actions;
 
 import net.thucydides.core.annotations.Step;
 
 public class TallerStep {
 
 	TallerPageObject tallerPageObject;
+	Actions actions;
 	
 	@Step
 	public void startPage() {
+		//actions.initializeDriver().get("https://inventario-billar.net/login.php");
+
 		tallerPageObject.open();
 	}
 	

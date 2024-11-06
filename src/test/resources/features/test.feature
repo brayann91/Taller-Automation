@@ -13,7 +13,7 @@ Feature: I am testing the inventory billiard page
     Examples: 
       |user				|password		|
       |"Roy"			|"Prueba1234*"  |
-      |"Thocego"	    |"Prueba1234"	|
+      |"Thocego"	|"Prueba1234"	|
 
   @Login
   Scenario: I am verify the login
